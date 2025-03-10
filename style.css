@@ -2407,14 +2407,16 @@ input, select, textarea {
 
 	.image {
 		border-radius: 5px;
-		border: 0;
-		display: inline-block;
-		position: relative;
+		width: auto;
+		height: auto;
+		overflow: visible;
 	}
 
 		.image img {
+			width: 100%;
+			height: auto;
 			border-radius: 5px;
-			display: block;
+			object-fit: contain;
 		}
 
 		.image.left, .image.right {
