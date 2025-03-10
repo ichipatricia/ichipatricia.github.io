@@ -2413,12 +2413,12 @@ input, select, textarea {
 	}
 
 		.image img {
-			border-radius: 15px;
+			border-radius: 5px;
 			display: block;
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 0%;
 		}
 
 			.image.left img, .image.right img {
