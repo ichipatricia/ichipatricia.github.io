@@ -2406,16 +2406,13 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 5px;
 		width: auto;
 		height: auto;
-		overflow: visible;
 	}
 
 		.image img {
 			width: 100%;
 			height: auto;
-			border-radius: 5px;
 			object-fit: contain;
 		}
 
