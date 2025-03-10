@@ -2406,19 +2406,20 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 5px;
-		border: 0;
-		display: inline-block;
-		position: relative;
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+		overflow: hidden;
 	}
 
 		.image img {
-			border-radius: 5px;
-			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
 		}
 
 		.image.left, .image.right {
-			max-width: 0%;
+			max-width: 100%;
 		}
 
 			.image.left img, .image.right img {
