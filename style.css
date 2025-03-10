@@ -4148,3 +4148,15 @@ input, select, textarea {
 		}
 
 	}
+
+	/* Desktop View (applies by default) */
+	.desktop-break {
+	  display: block;
+	}
+	
+	/* Mobile View (below 768px) */
+	@media only screen and (max-width: 768px) {
+	  .desktop-break {
+	    display: none;
+	  }
+	}
